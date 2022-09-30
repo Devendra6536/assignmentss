@@ -75,6 +75,5 @@ public class LongestCompoundWord {
 		
 		System.out.println("Longest Compound Word: " + longest);
 		System.out.println("Second Longest Compound Word: " + sec_longest);
-		System.out.println("Total Number of Compound Words: " + compoundWords.size());
 	}
 }
