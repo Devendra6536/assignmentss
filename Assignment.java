@@ -38,9 +38,9 @@ public class LongestCompoundWord {
 		}
 		
 		Pair<String> p;				 
-		int maxLength = 0;			  		 		
+		int maxLen = 0;			  		 		
 		String longest = "";		
-		String sec_longest = "";	 
+		String SecLongest = "";	 
 
 		while (!queue.isEmpty()) {
 			p = queue.removeFirst();
@@ -58,10 +58,10 @@ public class LongestCompoundWord {
 				}
 				
 				if (i == word.length()) { 
-					if (p.first().length() > maxLength) {
+					if (p.first().length() > maxLen) {
 						
-						sec_longest = longest;
-						maxLength = p.first().length();
+						SecLongest = longest;
+						maxLen = p.first().length();
 						longest = p.first();
 					}
 			
@@ -74,6 +74,6 @@ public class LongestCompoundWord {
 		}
 		
 		System.out.println("Longest Compound Word: " + longest);
-		System.out.println("Second Longest Compound Word: " + sec_longest);
+		System.out.println("Second Longest Compound Word: " + SecLongest);
 	}
 }
