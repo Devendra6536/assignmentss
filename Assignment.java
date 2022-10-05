@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class LongestCompoundWord {
 
-	public static void main(String[] args) throws FileNotFoundException {
+	public static void main(String[] args)  {
 		
 		
 		File file = new File("ex.txt");
