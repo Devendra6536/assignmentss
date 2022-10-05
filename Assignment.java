@@ -16,7 +16,7 @@ public class LongestCompoundWord {
 		Trie trie = new Trie();
 		LinkedList<Pair<String>> queue = new LinkedList<Pair<String>>();
 		HashSet<String> compoundWords = new HashSet<String>();
-		@SuppressWarnings("resource")
+	
 		Scanner s = new Scanner(file);
 
 		String word;				
